@@ -15,9 +15,9 @@ export default function Projects() {
     {
       title: t('projects.notes.title'),
       description: t('projects.notes.desc'),
-      technologies: ['Python', 'Django REST', 'PostgreSQL', 'JWT'],
+      technologies: ['Python', 'FastAPI', 'PostgreSQL', 'JWT'],
       github: 'https://github.com/gonzaloromero',
-      demo: '#'
+      demo: 'https://fastapi-6azo.onrender.com'
     },
     {
       title: t('projects.ecommerce.title'),
