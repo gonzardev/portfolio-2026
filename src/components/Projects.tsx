@@ -6,18 +6,18 @@ export default function Projects() {
 
   const projects = [
     {
-      title: t('projects.movie.title'),
-      description: t('projects.movie.desc'),
-      technologies: ['Python', 'Django', 'SQLite', 'HTML/CSS'],
-      github: 'https://github.com/gonzaloromero',
-      demo: '#'
-    },
-    {
       title: t('projects.notes.title'),
       description: t('projects.notes.desc'),
       technologies: ['Python', 'FastAPI', 'PostgreSQL', 'JWT'],
       github: 'https://github.com/gonzardev/api-gestion-ventas',
       demo: 'https://fastapi-6azo.onrender.com'
+    },
+    {
+      title: t('projects.movie.title'),
+      description: t('projects.movie.desc'),
+      technologies: ['Python', 'Django', 'SQLite', 'HTML/CSS'],
+      github: 'https://github.com/gonzaloromero',
+      demo: '#'
     },
     {
       title: t('projects.ecommerce.title'),
