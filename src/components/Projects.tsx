@@ -15,9 +15,9 @@ export default function Projects() {
     {
       title: t('projects.movie.title'),
       description: t('projects.movie.desc'),
-      technologies: ['Python', 'Django', 'SQLite', 'HTML/CSS'],
-      github: 'https://github.com/gonzaloromero',
-      demo: '#'
+      technologies: ['Python', 'FastAPI', 'Groq Llama 3.3 IA', 'Docker'],
+      github: 'https://github.com/gonzardev/gitpulse',
+      demo: 'https://gonzardev-gitpulse.hf.space'
     },
     {
       title: t('projects.ecommerce.title'),
